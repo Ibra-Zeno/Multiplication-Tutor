@@ -48,7 +48,7 @@ def MathTutor():
         print(f'Question {i+1}: {mul1[i]} * {mul2[i]} = {mul1[i]*mul2[i]}.\n You answered: {ans[i]}.\n',
               f'It took you {timed[i]} seconds to answer this question')
     # Return the accuracy of answers.
-    return print(f'You got {correct} correct out of {eqns} questions. You have an accuracy of {round(((correct)/eqns)*100, 0)}%. Thank you for playing.',)
+    return print(f'You got {correct} correct out of {eqns} questions. You have an accuracy of {round(((correct)/eqns)*100, 0)}%. Thank you for playing.')
 
 
 MathTutor()
