@@ -49,8 +49,6 @@ def MathTutor():
               f'It took you {timed[i]} seconds to answer this question')
     # Return the accuracy of answers.
     return print(f'You got {correct} correct out of {eqns} questions. You have an accuracy of {round(((correct)/eqns)*100, 0)}%. Thank you for playing.',)
-    # return
-    # print(quest, timed)20
 
 
 MathTutor()
